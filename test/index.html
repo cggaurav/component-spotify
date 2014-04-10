@@ -1,0 +1,27 @@
+<!DOCTYPE 5>
+<html>
+  <head>
+    <title>Spotify Play button</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="../build/build.css" />
+    <style>
+      body {
+        padding: 40px;
+        font: 14px "Helvetica Neue", Helvetica, Arial;
+      }
+    </style>
+  </head>
+  <body>
+    <h1> Spotify Play Button as a Component </h1>
+    <script src="../build/build.js"></script>
+    <script>
+      var Spotify = require('spotify');
+      var spotify = new Spotify('https://embed.spotify.com/?uri=spotify:user:erebore:playlist:788MOXyTfcUb1tdw4oC7KJ', 400, 450, 'white', 'coverart');
+      var another_spotify = new Spotify;
+      document.body.appendChild(spotify.el);
+      document.body.appendChild(another_spotify.el);
+      another_spotify.src("https://embed.spotify.com/?uri=spotify:user:erebore:playlist:788MOXyTfcUb1tdw4oC7KJ")
+      another_spotify.view("list")
+    </script>
+  </body>
+</html>

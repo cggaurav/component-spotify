@@ -1,0 +1,25 @@
+{
+  "name": "component-spotify",
+  "description": "Spotify play button as a component",
+  "version": "0.0.1",
+  "author": "Gaurav C <i@cggaurav.net>",
+  "twitter": "@cggaurav",
+  "keywords": [
+    "spotify",
+    "component"
+  ],
+  "dependencies": {
+  },
+  "component": {
+    "styles": [
+      "spotify.css"
+    ],
+    "scripts": {
+      "spotify": "index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cggaurav/component-spotify.git"
+  }
+}
