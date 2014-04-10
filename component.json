@@ -1,7 +1,7 @@
 {
   "name": "spotify",
   "description": "Spotify play button Component",
-  "repo": "cggaurav/component-spotify",
+  "repository": "cggaurav/component-spotify",
   "version": "0.0.1",
   "author": "Gaurav C <i@cggaurav.net>",
   "twitter": "@cggaurav",

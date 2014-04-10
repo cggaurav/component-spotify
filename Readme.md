@@ -18,7 +18,6 @@ document.body.appendChild(spotify.el);
 document.body.appendChild(another_spotify.el);
 another_spotify.src("https://embed.spotify.com/?uri=spotify:user:erebore:playlist:788MOXyTfcUb1tdw4oC7KJ")
 another_spotify.view("list")
-
 ```
 
 
